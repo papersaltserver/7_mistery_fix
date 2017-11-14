@@ -5,6 +5,12 @@
 # Как использовать
 
 Прямого запуска для модуля не предусмотрено, необходимо импортировать модуль в свой скрипт и использовать функцию quadratic_equation.get_roots(a, b, c)
+```python
+from quadratic_equation import get_roots
+
+
+get_roots(1, 2, 3)
+```
 
 # Как запустить
 
