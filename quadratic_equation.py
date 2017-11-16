@@ -1,7 +1,8 @@
 from math import sqrt
 
 def get_first_root(a, b, discriminant):
-    return (-b - sqrt(discriminant)) / (2 * a)
+    first_root = (-b - sqrt(discriminant)) / (2 * a)
+    return first_root
 
 def get_roots(a, b, c):
     discriminant = b ** 2 - 4 * a * c
